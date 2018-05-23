@@ -103,6 +103,9 @@ To augment the data sat, I also flipped images and angles thinking that this wou
 
 After the collection process, I had 5073 number of data points. I then preprocessed this data by normalizing pixel value and cropping each image to focus on only the portion of the image that is useful for predicting a steering angle. 
 
+![alt text][image8]
+![alt text][image9]
+
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 15 as evidenced by the loss stop decrease any more. I used an adam optimizer so that manually training the learning rate wasn't necessary.
